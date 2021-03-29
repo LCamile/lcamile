@@ -1,59 +1,614 @@
-<!doctype html>
-
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TWICE
+    
+  </title>
 
-  <title>Lawrence Jose Camile</title>
-  <meta name="description" content="Lawrence Jose Camile">
-  <meta name="author" content="Lawrence Jose Camile">
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
 </head>
+<body class="hold-transition sidebar-mini">
+<div class="wrapper">
 
-<body>
-  <h1>Welcome to my Website</h1>
-  
-  <div class="alert alert-primary" role="alert">
-  This is a primary alert—check it out!
-</div>
-  
- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
     <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="index3.html" class="nav-link">Home</a>
+      </li>
+     
+    </ul>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+      <!-- Navbar Search -->
+      <li class="nav-item">
+        <a class="nav-link" data-widget="navbar-search" href="#" role="button">
+          <i class="fas fa-search"></i>
+        </a>
+        <div class="navbar-search-block">
+          <form class="form-inline">
+            <div class="input-group input-group-sm">
+              <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+              <div class="input-group-append">
+                <button class="btn btn-navbar" type="submit">
+                  <i class="fas fa-search"></i>
+                </button>
+                <button class="btn btn-navbar" type="button" data-widget="navbar-search">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </li>
+
+      <!-- Messages Dropdown Menu -->
+      <li class="nav-item dropdown">
+        <a class="nav-link" data-toggle="dropdown" href="#">
+          <i class="far fa-comments"></i>
+          <span class="badge badge-danger navbar-badge">3</span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          <a href="#" class="dropdown-item">
+            <!-- Message Start -->
+            <div class="media">
+              <img src="dist/img/Lawrrr.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+              <div class="media-body">
+                <h3 class="dropdown-item-title">
+                  Lawrence Camile
+                  <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
+                </h3>
+                <p class="text-sm">tanaw ta moby...</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+              </div>
+            </div>
+            <!-- Message End -->
+          </a>
+          
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <!-- Message Start -->
+            <div class="media">
+              <img src="dist/img/Fran police.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <div class="media-body">
+                <h3 class="dropdown-item-title">
+                  Fran Deang
+                  <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
+                </h3>
+                <p class="text-sm">Tra tanaw ta</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+              </div>
+            </div>
+            <!-- Message End -->
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <!-- Message Start -->
+            <div class="media">
+              <img src="dist/img/Dorrr.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <div class="media-body">
+                <h3 class="dropdown-item-title">
+                  Doreen Pandi
+                  <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
+                </h3>
+                <p class="text-sm">Time to twice naaa...</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+              </div>
+            </div>
+            <!-- Message End -->
+          </a>
+          <a href="#" class="dropdown-item">
+            <!-- Message Start -->
+            <div class="media">
+              <img src="dist/img/black.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+              <div class="media-body">
+                <h3 class="dropdown-item-title">
+                  Sims Bediot
+                  <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
+                </h3>
+                <p class="text-sm">Tanaw ta Frozen</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+              </div>
+            </div>
+            <!-- Message End -->
+          </a>
+          <a href="#" class="dropdown-item">
+            <!-- Message Start -->
+            <div class="media">
+              <img src="dist/img/black.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+              <div class="media-body">
+                <h3 class="dropdown-item-title">
+                  Ryan Basicong
+                  <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
+                </h3>
+                <p class="text-sm">Nag unsa mo?</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+              </div>
+            </div>
+            <!-- Message End -->
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+        </div>
+      </li>
+      <!-- Notifications Dropdown Menu -->
+      <li class="nav-item dropdown">
+        <a class="nav-link" data-toggle="dropdown" href="#">
+          <i class="far fa-bell"></i>
+          <span class="badge badge-warning navbar-badge">15</span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          <span class="dropdown-header">15 Notifications</span>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-envelope mr-2"></i> 4 new messages
+            <span class="float-right text-muted text-sm">3 mins</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-users mr-2"></i> 8 friend requests
+            <span class="float-right text-muted text-sm">12 hours</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-file mr-2"></i> 3 new reports
+            <span class="float-right text-muted text-sm">2 days</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+        </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+          <i class="fas fa-expand-arrows-alt"></i>
+        </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
+        <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
+          <i class="fas fa-th-large"></i>
+        </a>
       </li>
     </ul>
-  </div>
-</nav>
-  <button type="button" class="btn btn-primary">Primary</button>
-<button type="button" class="btn btn-secondary">Secondary</button>
-<button type="button" class="btn btn-success">Success</button>
-<button type="button" class="btn btn-danger">Danger</button>
-<button type="button" class="btn btn-warning">Warning</button>
-<button type="button" class="btn btn-info">Info</button>
-<button type="button" class="btn btn-light">Light</button>
-<button type="button" class="btn btn-dark">Dark</button>
+  </nav>
+  <!-- /.navbar -->
 
-<button type="button" class="btn btn-link">Link</button>
-  
- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="index3.html" class="brand-link">
+      <img src="dist/img/Logo.jpg" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <span class="brand-text font-weight-light"> TWICE Updates</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user panel (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="dist/img/Lawrrr.jpg" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">Lawrence Camile</a>
+        </div>
+      </div>
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="dist/img/Fran police.jpg" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">Fran Deang</a>
+        </div>
+      </div>
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="dist/img/Dorrr.jpg" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">Doreen Pandi</a>
+        </div>
+      </div>
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="dist/img/black.jpg" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">Ryan Basicong</a>
+        </div>
+      </div>
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="dist/img/black.jpg" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">Sims Bediot</a>
+        </div>
+      </div>
+      <!-- SidebarSearch Form -->
+      <div class="form-inline">
+        <div class="input-group" data-widget="sidebar-search">
+          <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
+          <div class="input-group-append">
+            <button class="btn btn-sidebar">
+              <i class="fas fa-search fa-fw"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar Menu -->
+      
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0">TWICE Profile</h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active">Starter Page</li>
+            </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+      <!-- /.card-header -->
+      <div class="card-body p-0">
+        <ul class="users-list clearfix">
+          <li>
+            <img src="dist/img/dahyun.jpg" alt="User Image">
+            <a class="users-list-name" href="#">Stage Name: Dahyun (다현)</a>
+            <span class="users-list-date">Birth Name: Kim Da Hyun (김다현)</span>
+          </li>
+          <li>
+            <img src="dist/img/nayeon.jpg" alt="User Image">
+            <a class="users-list-name" href="#">Stage Name: Nayeon (나연)</a>
+            <span class="users-list-date">Birth Name: Im Na Yeon (임나연)</span>
+          </li>
+          <li>
+            <img src="dist/img/momo.jpg" alt="User Image">
+            <a class="users-list-name" href="#">Stage Name: Momo (모모)</a>
+            <span class="users-list-date">Birth Name: Hirai Momo (平井 もも)</span>
+          </li>
+        
+          <li>
+            <img src="dist/img/tzuyu.jpg" alt="User Image">
+            <a class="users-list-name" href="#">Stage Name: Tzuyu (쯔위)</a>
+            <span class="users-list-date">Birth Name: Chou Tzuyu (周子瑜)</span>
+          </li>
+          
+          <li>
+            <img src="dist/img/sana.jpg" alt="User Image">
+            <a class="users-list-name" href="#">Stage Name: Sana (사나)</a>
+            <span class="users-list-date">Birth Name: Minatozaki Sana (湊崎 紗夏)</span>
+          </li>
+          <li>
+            <img src="dist/img/chaeyong.jpg" alt="User Image">
+            <a class="users-list-name" href="#">Stage Name: Chaeyoung (채영)</a>
+            <span class="users-list-date">Birth Name: Son Chae Young (손채영)</span>
+          </li>
+          <li>
+            <img src="dist/img/jihyo.jpg" alt="User Image">
+            <a class="users-list-name" href="#">Stage Name: Jihyo (지효)</a>
+            <span class="users-list-date">Birth Name: Park Ji Hyo (박지효)</span>
+          </li>
+          <li>
+            <img src="dist/img/mina.jpg" alt="User Image">
+            <a class="users-list-name" href="#">Stage Name: Mina (미나)</a>
+            <span class="users-list-date">Birth Name: Myoui Mina (名井 南)</span>
+          </li>
+        
+        </ul>
+        <!-- /.users-list -->
+      </div>
+      <!-- /.card-body -->
+      
+<!-- /.row -->
+    <div class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card">
+              <div class="card-header">
+                  <div class="d-flex">
+                      <h5 class="m-0 p-2">TWICE</h5>
+                      <small class="text-muted ml-auto p-2">Mar 10</small>
+                  </div>
+              </div>
+              <img class="card-img-top" src="dist/img/comeback.png" alt="Card image cap">
+              <div class="card-body">
+                  <p  class="card-text"><h3  > <a href="https://www.kpopstarz.com/articles/297061/20210201/twice-jeongyeon-makes-surprising-return-group-activities-30th-seoul-music-awards.htm#:~:text=TWICE%20Jeongyeon%20Has%20Returned!,three%20months%20or%20107%20days" class="product-title" >TWICE Jeongyeon Makes Surprising Return to Group Activities at 30th Seoul Music Award</a></h3></p>
+              </div>
+              <div class="card-footer">
+                  <p class="card-text">50k likes &nbsp; 3k comments</p>
+              </div>
+          </div>
+
+          <!-- /.recentadded -->
+          <div class="card">
+            <div class="card-header">
+              <h3 class="card-title">Recently Added Youtube Contents</h3>
+
+             
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body p-0">
+              <ul class="products-list product-list-in-card pl-2 pr-2">
+                <li class="item">
+                  <div class="product-img">
+                    <img src="dist/img/gallery.jpg" alt="Product Image" class="img-size-50">
+                  </div>
+                  <div class="product-info">
+                    <a href="https://www.youtube.com/watch?v=dhH1hrle4Bk" class="product-title">Yes, I am Sana. Making Video
+
+
+                      
+                    <span class="product-description">
+                      #TWICE #SANA #YesIamSana
+                    </span>
+                  </div>
+                </li>
+                <!-- /.item -->
+                <li class="item">
+                  <div class="product-img">
+                    <img src="dist/img/timeto.jpg" alt="Product Image" class="img-size-50">
+                  </div>
+                  <div class="product-info">
+                    <a href="https://www.youtube.com/watch?v=aqIjIWt81Kg" class="product-title">TWICE REALITY “TIME TO TWICE” TDOONG Entertainment Season 2 TEASER
+
+
+                      
+                    <span class="product-description">
+                      #TWICE #TIMETOTWICE #TTT
+                    </span>
+                  </div>
+                </li>
+                <!-- /.item -->
+                <li class="item">
+                  <div class="product-img">
+                    <img src="dist/img/secret.jpg" alt="Product Image" class="img-size-50">
+                  </div>
+                  <div class="product-info">
+                    <a href="https://www.youtube.com/watch?v=JEtqTMnc5wI" class="product-title">
+                      MINA’s TW-LOG with SECRET FRIEND 
+                    </a>
+                    <span class="product-description">
+                      #TWICE #트와이스 #TW
+                    </span>
+                  </div>
+                </li>
+                <!-- /.item -->
+                <li class="item">
+                  <div class="product-img">
+                    <img src="dist/img/asmr.png" alt="Product Image" class="img-size-50">
+                  </div>
+                  <div class="product-info">
+                    <a href="https://www.youtube.com/watch?v=U_MY6ndtoKI" class="product-title">Yes, I am Sana. ASMR Interview
+                      </a>
+                    <span class="product-description">
+                      #TWICE #SANA #YesIamSana
+                    </span>
+                  </div>
+                </li>
+                <!-- /.item -->
+              </ul>
+            </div>
+            <!-- /.card-body -->
+            <div class="card-footer text-center">
+              <a href="https://www.youtube.com/channel/UCzgxx_DM2Dcb9Y1spb9mUJA" class="uppercase">View More</a>
+            </div>
+            <!-- /.card-footer -->
+          </div>
+          
+            
+          </div>
+          <!-- /.col-md-6 -->
+
+
+           <!-- /.recentaddednews -->
+           <div class="card">
+            <div class="card-header">
+              <h3 class="card-title">Recently Added Kpop News</h3>
+
+            
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body p-0">
+              <ul class="products-list product-list-in-card pl-2 pr-2">
+                <li class="item">
+                  <div class="product-img">
+                    <img src="dist/img/teaser.jpg" alt="Product Image" class="img-size-50">
+                  </div>
+                  <div class="product-info">
+                    <a href="https://www.allkpop.com/video/2021/03/twice-tease-upcoming-reality-series-time-to-twice-season-2" class="product-title">TWICE tease upcoming reality series 'Time to Twice' season 2
+
+
+                      
+                    <span class="product-description">
+                      germainej 
+                    </span>
+                  </div>
+                </li>
+                <!-- /.item -->
+                
+                <li class="item">
+                  <div class="product-img">
+                    <img src="dist/img/disco.jpeg" alt="Product Image" class="img-size-50">
+                  </div>
+                  <div class="product-info">
+                    <a href="https://www.allkpop.com/article/2021/03/twice-go-from-disco-to-jazzy-in-lovely-japanese-comeback-teaser-images" class="product-title">TWICE go from disco to jazzy in lovely Japanese comeback teaser images
+
+
+                      
+                    <span class="product-description">
+                      beansss 
+                    </span>
+                  </div>
+                </li>
+                <!-- /.item -->
+                <li class="item">
+                  <div class="product-img">
+                    <img src="dist/img/dress.jpeg" alt="Product Image" class="img-size-50">
+                  </div>
+                  <div class="product-info">
+                    <a href="https://www.allkpop.com/article/2021/03/the-dress-that-twices-tzuyu-wore-sells-out-in-less-than-a-day" class="product-title">
+                      The dress that TWICE's Tzuyu wore sells out in less than a day 
+                    </a>
+                    <span class="product-description">
+                      speedzu
+                    </span>
+                  </div>
+                </li>
+                <!-- /.item -->
+                <li class="item">
+                  <div class="product-img">
+                    <img src="dist/img/artist.png" alt="Product Image" class="img-size-50">
+                  </div>
+                  <div class="product-info">
+                    <a href="https://www.allkpop.com/article/2021/03/the-artists-who-received-the-most-views-on-youtube-in-south-korea-last-month" class="product-title">The artists who received the most views on YouTube in South Korea last month
+                      </a>
+                    <span class="product-description">
+                      AmieAmore
+                    </span>
+                  </div>
+                </li>
+                <!-- /.item -->
+                <li class="item">
+                  <div class="product-img">
+                    <img src="dist/img/likeoh.jpg" alt="Product Image" class="img-size-50">
+                  </div>
+                  <div class="product-info">
+                    <a href="https://www.allkpop.com/article/2021/03/twices-like-ooh-ahh-becomes-groups-6th-mv-to-surpass-400m-youtube-views" class="product-title">TWICE's 'Like Ooh-Ahh' becomes group's 6th MV to surpass 400M YouTube views
+
+
+                      
+                    <span class="product-description">
+                      danisurst
+                    </span>
+                  </div>
+                </li>
+                <!-- /.item -->
+                <li class="item">
+                  <div class="product-img">
+                    <img src="dist/img/polaro.jpeg" alt="Product Image" class="img-size-50">
+                  </div>
+                  <div class="product-info">
+                    <a href="https://www.allkpop.com/article/2021/03/polaroid-camera-that-twices-tzuyu-used-in-her-vlog-is-sold-out" class="product-title">Polaroid Camera that Twice’s Tzuyu used in her Vlog is sold out
+
+
+                      
+                    <span class="product-description">
+                      speedzu
+                    </span>
+                  </div>
+                </li>
+                <!-- /.item -->
+                <li class="item">
+                  <div class="product-img">
+                    <img src="dist/img/netizen.jpg" alt="Product Image" class="img-size-50">
+                  </div>
+                  <div class="product-info">
+                    <a href="https://www.allkpop.com/article/2021/03/netizens-are-in-love-with-twice-nayeons-unique-louis-vuitton-pictorial" class="product-title">Netizens are in love with TWICE Nayeon's unique Louis Vuitton pictorial
+
+
+                      
+                    <span class="product-description">
+                      KayRosa 
+                    </span>
+                  </div>
+                </li>
+                <!-- /.item -->
+                <li class="item">
+                  <div class="product-img">
+                    <img src="dist/img/Here.jpg" alt="Product Image" class="img-size-50">
+                  </div>
+                  <div class="product-info">
+                    <a href="https://www.allkpop.com/article/2021/03/here-are-the-korean-artists-with-songs-over-100-million-streams-on-spotify" class="product-title">Here are the Korean artists with songs over 100 million streams on Spotify.
+
+
+                      
+                    <span class="product-description">
+                      kpop-lists 
+                    </span>
+                  </div>
+                </li>
+                <!-- /.item -->
+              </ul>
+            </div>
+            <!-- /.card-body -->
+            <div class="card-footer text-center">
+            
+            </div>
+            <!-- /.card-footer -->
+          </div>
+          
+           
+          <!-- /.col-md-6 -->
+        </div>
+        <!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+    <div class="p-3">
+      <h5>Title</h5>
+      <p>Sidebar content</p>
+    </div>
+  </aside>
+  <!-- /.control-sidebar -->
+
+  <!-- Main Footer -->
+  <footer class="main-footer">
+    <!-- To the right -->
+    <div class="float-right d-none d-sm-inline">
+      
+    </div>
+    <!-- Default to the left -->
+    <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">TWICE</a>.</strong> All rights reserved.
+  </footer>
+</div>
+<!-- ./wrapper -->
+
+<!-- REQUIRED SCRIPTS -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.min.js"></script>
 </body>
 </html>
